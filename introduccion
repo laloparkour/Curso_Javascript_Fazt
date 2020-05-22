@@ -1,0 +1,92 @@
+Que es Javascript?
+    * Es un lenguaje de programacion que funciona dentro del navegador.
+    * Fue creado en 1995.
+    * La razon por la que fue creada fue la competencia entre las empresas netscape y microsoft para
+    que su navegador fuera el mas utilizado (mozilla fireforx y internet explorer), y asi fue
+    como netscape este lenguaje.
+
+Herramientas para Javascript:
+    Navegador
+    Editor de codigo
+
+Mostrar un mensaje:
+console.log("Hello World"); Nos permite mostrar un mensaje en la consola
+console.write("Hello World") Nos permite mostrar un mensaje en el navegador
+
+Crear un error:
+console.error("Mi error customizado")
+
+Tipos de datos:
+    string(cadena de caracteres, secuencia de caracteres) = "Hello World";
+                                                            'Hello World';
+    Numericos: 1000000, 1.2, -125 //Nos permite hacer operaciones
+    Booleanos o lógicos:  true o false (0 o 1);
+    Arreglos: ['Isaac', 'Nayeli', 'Marylin']
+              [4, 27, 7];
+    Objetos:
+        //Sintaxis: clave(propiedad) y valor
+    {
+        "username" : 'Isaac',
+        "score": 7975,
+        "hours": 100,
+        "vocation": 'mage'
+        "friends": ['amigo', 'amigo']
+    }
+        {
+        //Sintaxis: clave y valor
+        "username" : 'Isaac',
+        "score": 7975,
+        "hours": 100,
+        "vocation": 'mage'
+        "friends": ['amigo', 'amigo']
+    }
+
+Variables:
+    Sintaxis: var-nombre-valor
+    var username = "Isaac";
+    let lastname = "Carter";
+    username = 'Jhon';
+    console.log(username);
+    console.log(lastname);
+
+Constantes:
+    Sintaxis: const-nombre-valor 
+    const PI = 3.1416;
+    console.log(PI);
+
+Operadores:
+    El proceso de unir cadenas se le llama concatenacion
+    let numberOne = 10;
+    let numberTwo = 20;
+    
+    //Suma
+    let result = numberOne + numberTwo;
+   //Comparacion
+    let result = numberOne > numberTwo;
+    document.write(result);
+
+Condicionales: (control de flujo)
+    let passBD = '12345';
+    let passLogin = '12345';
+    let result = passBD == passLogin;
+
+    if(result == true){
+        document.write('Login Correcto');
+    }
+    else{
+        document.write('Login Incorrecto')
+    }
+
+    let typeCard = 'Credit Card';
+
+    switch (typeCard) {
+        case 'Credit Card':
+            document.write('This is a credit card.');
+            break;
+        case 'Debit Card':
+            document.write('This is a debit card.');
+            break;
+        default:
+            document.write('No card.');
+            break;
+    }
