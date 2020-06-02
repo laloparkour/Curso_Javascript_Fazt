@@ -1,13 +1,11 @@
-let typeCard = 'Credit Card';
-
-switch (typeCard) {
-    case 'Credit Card':
-        document.write('This is a credit card.');
-        break;
-    case 'Debit Card':
-        document.write('This is a debit card.');
-        break;
-    default:
-        document.write('No card.');
-        break;
+function greeting(name) {
+    document.write('Hello ' + name);
 }
+
+function add(n1, n2) {
+    suma = n1 + n2;
+    document.write(suma);
+}
+
+greeting('Isaac');
+add(5, 5);

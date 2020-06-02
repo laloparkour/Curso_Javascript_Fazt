@@ -30,7 +30,7 @@ Tipos de datos:
         "score": 7975,
         "hours": 100,
         "vocation": 'mage'
-        "friends": ['amigo', 'amigo']
+        "friends": ['amigo', 'amigo']pr
     }
         {
         //Sintaxis: clave y valor
@@ -90,3 +90,33 @@ Condicionales: (control de flujo)
             document.write('No card.');
             break;
     }
+
+    Bucles: 
+        while (condition) {
+            Instruccion
+        }
+
+        let names = ['Isaac', 'Eduardo', 'Emiliano', 'Prado'];
+        document.write(names.length);
+        let tam = names.length;
+
+        for (let i = 0; i < tam; i++) {
+            document.write(names[i]);
+        }
+
+    Funciones:
+        function greeting(name) {
+            document.write('Hello ' + name);
+        }
+
+        function add(n1, n2) {
+            suma = n1 + n2;
+            document.write(suma);
+        }
+
+        greeting('Isaac');
+        add(5, 5);
+
+Lo siguiente por aprender es conocer sobre el DOM del navegador
+(document object model), este hace referencia a la manera en que se escribe
+un documento o como esta estructurado un documento.
